@@ -1,0 +1,26 @@
+Empirical formula;C28H49N2O7BrMnK
+System Type;MD of clusters 
+Size of trajectory;90 snapshots
+Size of molecule; 89 atoms
+Number of conformations found;3 conformations
+Number of transitional states found;1 states
+Covalent bonds:
+Mn1-N1 	  40 	  43	1,2,4,
+Mn1-N2 	  40 	  48	1,4,
+Organometallic bonds:
+O3-Mn1 	  32 	  40	1,2,3,
+
+
+Conformation	Type	#snapshots
+1	conf.	43
+		 CB 	 Mn1-N1
+		 CB 	 Mn1-N2
+		 OB 	 O3-Mn1 
+2	conf.	8
+		 CB 	 Mn1-N1
+		 OB 	 O3-Mn1 
+3	conf.	38
+		 OB 	 O3-Mn1 
+4	trans.	1
+		 CB 	 Mn1-N1
+		 CB 	 Mn1-N2
