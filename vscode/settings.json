@@ -1,0 +1,15 @@
+{
+	"spellright.language": [
+		"en"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext",
+		"c",
+		"makefile"
+	],
+	"files.associations": {
+		"memory.h": "c"
+	}
+}
