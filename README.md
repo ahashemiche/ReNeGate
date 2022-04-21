@@ -58,6 +58,11 @@ Renegate contains three "Conformer Exploration", "Reactive event identification"
 If no error has occurred, this command-line "make" generates the following file:
 
 * conformer_explorer: this script is used to do conformer exploration with the name of the input structure as the argument
+
+``` 
+ conformer_explorer input.xyz  
+```
+
 * singanalysis : this executable is used to analyse a single trajectory with a set of arguments (see usage section).
 
 This file is located in the "bin" folder of the project.
