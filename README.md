@@ -16,7 +16,7 @@ The Renegate program is free-ware and can be downloaded from [github]( https://g
 
 In order to run the Renegate program, you have to install the following software :
 
-1. Crest(Conformer-Rotamer Ensemble Sampling Tool) : is used to conduct exhaustive RMSD biased explorations on the potential energy surface for the input (catalytic) mixture. [Download] (https://github.com/grimme-lab/crest)
+1. Crest(Conformer-Rotamer Ensemble Sampling Tool) : is used to conduct exhaustive RMSD biased explorations on the potential energy surface for the input (catalytic) mixture. [Download](https://github.com/grimme-lab/crest)
 
 2. Gnuplot: is used to draw plots like the time evolution of hydrogen bonds. [Download](http://www.gnuplot.info/download.html)
 
@@ -200,4 +200,3 @@ For more details see <http://www.gnu.org/licenses/>.
 
 ---
 The project is under development.
-
