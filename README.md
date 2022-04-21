@@ -6,12 +6,12 @@ Reaction Network Graph Theoretical tool for automated mechanistic studies in com
 
 
 
-RENEGATE (Reaction Network Graph Theoretical tool) is a free program for automated reaction network exploration and analysis. It uses configurational root mean squared deviations (RMSD) to bias metadynamics simulations to perform exhaustive configurational search on the potential energy surface of the given input catalytic mixture. The resulting metadynamics trajectories are then analysed with the developed basic graph theoretical algorithms in order to identify the conformations and transitions between them that occur along dynamics to form reaction networks. Reaction networks are then trimmed based on thermodynamic tresholds. Renegate is a series of codes written in C, bash and Python and can be run on Linux machines.
+RENEGATE (Reaction Network Graph Theoretical tool) is a free program for automated reaction network exploration and analysis. Conformer exploration, Reactive event identification and Reaction network analysis are the main steps taken for understanding the underlying mechanistic pathways in catalytic mixtures given the reaction mixture as the input. For conformer exploration configurational root mean squared deviations (RMSD) is used to bias metadynamics simulations to perform exhaustive configurational search on the potential energy surface of the given input catalytic mixture. The resulting metadynamics trajectories are then analysed with the developed basic graph theoretical algorithms in order to identify the conformations and transitions between them that occur along dynamics to form reaction networks. Reaction networks are then trimmed based on thermodynamic tresholds. Renegate is a series of codes written in C, bash and Python and can be run on Linux machines.
 
 ## Getting Started
 
 ---
-The Renegate program is free-ware and can be downloaded from [github]( https://github.com/ahashemiche/ReneGate). Hereafter the instructions of installations and requirements.
+Renegate program is free-ware and can be downloaded from [github]( https://github.com/ahashemiche/ReneGate). Hereafter the instructions of installations and requirements.
 
 ### Prerequisites
 
@@ -54,9 +54,10 @@ Then, in order to compile Renegate source code, use the make file provided :
  make -f Makefile  
 ```
 
-Renegate contains three modules. In this version only one module is provided.
+Renegate contains three "Conformer Exploration", "Reactive event identification" and "Reaction network analysis" modules. 
 If no error has occurred, this command-line "make" generates the following file:
 
+* conformer_explorer: this script is used to do conformer exploration with the name of the input structure as the argument
 * singanalysis : this executable is used to analyse a single trajectory with a set of arguments (see usage section).
 
 This file is located in the "bin" folder of the project.
