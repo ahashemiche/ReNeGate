@@ -207,8 +207,7 @@ Ali Hashemi acknowledges the financial support from the European Research Counci
 ## License
 
 ---
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-For more details see <http://www.gnu.org/licenses/>.
+Renegate is copyright (C) 2022 - 2030 Ali Hashemi, Sana Bougueroua, Marie-Pierre Gaigeot , Evgeny A. Pidko all rights reserved. Renegate is distributed under 3-Clause BSD License (https://opensource.org/licenses/BSD-3-Clause).
 
 ## Project status
 
