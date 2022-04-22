@@ -55,13 +55,16 @@ Then, in order to compile Renegate source code, use the make file provided :
 ```
 
 Renegate contains three "Conformer Exploration", "Reactive event identification" and "Reaction network analysis" modules. 
-If no error has occurred, this command-line "make" generates the following file:
+If no error has occurred, this command-line "make" generates the following files:
 
-* conformer_explorer: this script is used to do conformer exploration with the name of the input structure as the argument
+* conformer_explorer: this script is used to do conformer exploration with the name of the input structure as the argument:
 
 ``` 
  conformer_explorer input.xyz  
 ```
+conformer and rotamer ensembles populated from explorations will be copied to the working directory. 
+
+This file is located in the "bin" folder of the project.
 
 * singanalysis : this executable is used to analyse a single trajectory with a set of arguments (see usage section).
 
@@ -132,7 +135,7 @@ Hence, to only analyse the hydrogen bonds dynamics, set __val__ to 1. To analyse
 
 * __[-g]__ : an optional field used to analyze and identify the fragments that have been observed along the trajectory.
 
-![Reaction Networks](https://user-images.githubusercontent.com/47638604/164558437-00eda2b3-d482-402f-acc0-09e1a19d7dd1.png)
+
 
 
 ## Code
