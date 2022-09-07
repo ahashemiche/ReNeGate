@@ -151,35 +151,14 @@ Note that in our results files, atoms are labelled according to their chemical t
 
 A file __<constants.h>__ in the __src__ folder contains all threshold values used in the analyses done by the program, with the default values. These values include covalent radii, reference distances and angles for forming bonds/interactions, PBC values, etc. User can modify the values according to his needs.
 
-## References
-
----
-Refer to the following papers for more details
-
-1. Bougueroua, S.; Barth, D.; Quessette, F.; Spezia, R.; Vial, S.; and Gaigeot, M.-P. Graph theory for automatic structural recognition in molecular dynamics simulations. J. Chem. Phys. (2018). DOI: 10.1063/1.5045818
-2. manual\_paper / in progress
-3. material\_paper / in progress
-
-## Support
-
----
-If you find a bug, please report it to the main developer (sana.bougueroua@univ-evry.fr).
-Comments and suggestions are also welcome.
-
-## Main developers
-
----
-
-* _2014-2022_ Dr. Sana Bougueroua (LAMBE-UMR8587, University Evry Val d'Essonne, Université Paris Saclay, France)
-* _2020-2022_ Dr. Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
-
 ## Acknowledgements
 
 ---
 All co-authors acknowledge funding from the LABEX CHARMMMAT
+Ali Hashemi acknowledges the financial support from the European Research Council (ERC) under the European Union's Horizon 2020 Research and Innovation Programme (grant agreement no. 725686). This work was sponsored by NWO Domain Science for the use of the national computer facilities. 
 (LABoratoire d'EXcellence CHARMMMAT, CHimie des ARchitectures Moléculaires Multifonctionnelles et des MATériaux).
 Sana Bougueroua especially benefited from a PhD funding from LABEX CHARMMMAT. Pr. Marie-Pierre Gaigeot, Pr. Dominique Barth, Dr. Franck Quessette, Dr. Riccardo Spezia, Dr. Alvaro Cimas, Dr. Simone Pezzotti, and Prof. Evgeny Pidko are acknowledged for the very helpful and fruitful discussions.
-Ali Hashemi acknowledges the financial support from the European Research Council (ERC) under the European Union's Horizon 2020 Research and Innovation Programme (grant agreement no. 725686). This work was sponsored by NWO Domain Science for the use of the national computer facilities. Ali Hashemi acknowledges Prof. Evgeny Pidko for very helpful and fruitful discussions.
+
 
 ## License
 
