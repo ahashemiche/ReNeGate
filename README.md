@@ -190,7 +190,7 @@ If you find a bug with ReNeGate, please report it to the developers (ahashemiche
 ---
 
 * _2014-2022_ Dr. Sana Bougueroua (LAMBE-UMR8587, University Evry Val d'Essonne, Université Paris Saclay, France)
-* _2017-2022_ Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
+* _2020-2022_ Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
 
 
 ## License
