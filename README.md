@@ -6,18 +6,18 @@ Reaction Network Graph Theoretical tool for automated mechanistic studies in com
 
 
 
-RENEGATE (Reaction Network Graph Theoretical tool) is a free program for automated reaction network exploration and analysis. Conformer exploration, Reactive event identification and Reaction network analysis are the main steps taken for understanding the underlying mechanistic pathways in catalytic mixtures given the reaction mixture as the input. For conformer exploration configurational root mean squared deviations (RMSD) is used to bias metadynamics simulations to perform exhaustive configurational search on the potential energy surface of the given input catalytic mixture. The resulting metadynamics trajectories are then analysed with the developed basic graph theoretical algorithms in order to identify the conformations and transitions between them that occur along dynamics to form reaction networks. Reaction networks are then trimmed based on thermodynamic tresholds. Renegate is a series of codes written in C, bash and Python and can be run on Linux machines.
+ReNeGate is a free program for automated reaction network exploration and analysis. Conformer exploration, Reactive event identification and Reaction network analysis are the main steps taken for understanding the underlying mechanistic pathways in catalytic mixtures given the reaction mixture as the input. For conformer exploration configurational root mean squared deviations (RMSD) is used to bias metadynamics simulations to perform exhaustive configurational search on the potential energy surface of the given input catalytic mixture. The resulting metadynamics trajectories are then analysed with the developed basic graph theoretical algorithms in order to identify the conformations and transitions between them that occur along dynamics to form reaction networks. Reaction networks are then trimmed based on thermodynamic tresholds. Renegate is a series of codes written in C, bash and Python and can be run on Linux machines.
 
 ## Getting Started
 
 ---
-Renegate program is free-ware and can be downloaded from [github]( https://github.com/ahashemiche/ReneGate). Hereafter the instructions of installations and requirements.
+ReNeGate program is free-ware and can be downloaded from [github]( https://github.com/ahashemiche/ReneGate). Hereafter the instructions of installations and requirements.
 
 ### Prerequisites
 
-In order to run the Renegate program, you have to install the following software :
+In order to run the ReNeGate program, you have to install the following software :
 
-1. Crest(Conformer-Rotamer Ensemble Sampling Tool) : is used to conduct exhaustive RMSD biased explorations on the potential energy surface for the input (catalytic) mixture. [Download](https://github.com/grimme-lab/crest)
+1. Crest(Conformer-Rotamer Ensemble Sampling Tool) : used to conduct exhaustive RMSD biased explorations on the potential energy surface for the input (catalytic) mixture. [Download](https://github.com/grimme-lab/crest)
 
 2. Gnuplot: is used to draw plots like the time evolution of hydrogen bonds. [Download](http://www.gnuplot.info/download.html)
 
@@ -29,32 +29,32 @@ In order to run the Renegate program, you have to install the following software
 
 ### Installation and compilation
 
-The code comes in a compressed file __Renegate.tar.gz__.
+The code comes in a compressed file __ReNeGate.tar.gz__.
 Use the following command to unpack the tar file :
 
 ```
-tar -xvzf Renegate.tar.gz
+tar -xvzf ReNeGate.tar.gz
 ```
 
 After that, you will have the following arborescence:
 
-* __Renegate/src__: containing the source and header files (_*.c_ , _*.h_ and *.sh),
+* __ReNeGate/src__: containing the source and header files (_*.c_ , _*.h_ and *.sh),
 
-* __Renegate/obj__: containing the object files (_*.o_),
+* __ReNeGate/obj__: containing the object files (_*.o_),
  
-* __Renegate/Makefile__: file for compilation,
+* __ReNeGate/Makefile__: file for compilation,
  
-* __Renegate/readMe__: file containing instructions of installations and requirements, and usage of the program. 
+* __ReNeGate/readMe__: file containing instructions of installations and requirements, and usage of the program. 
   
-* __Renegate/examples__: containing some examples.
+* __ReNeGate/examples__: containing some examples.
 
-Then, in order to compile Renegate source code, use the make file provided :
+Then, in order to compile ReNeGate source code, use the make file provided :
 
 ``` 
  make -f Makefile  
 ```
 
-Renegate contains three "Conformer Exploration", "Reactive event identification" and "Reaction network analysis" modules. 
+ReNeGate contains three "Conformer Exploration", "Reactive event identification" and "Reaction network analysis" modules. 
 If no error has occurred, this command-line "make" generates the following files:
 
 * conformer_explorer: this script is used to do conformer exploration with the name of the input structure as the argument:
@@ -80,7 +80,7 @@ You can run an example using the following command-line
 
 
 ---
-Depending on the type of analysis, you can choose one module of Renegate by running one of the files generated by the "make" command-line. The usage of each module is described hereafter, with the list of required/optional arguments to be used.  
+Depending on the type of analysis, you can choose one module of ReNeGate by running one of the files generated by the "make" command-line. The usage of each module is described hereafter, with the list of required/optional arguments to be used.  
 
 ### Single analysis
 
@@ -141,7 +141,7 @@ Hence, to only analyse the hydrogen bonds dynamics, set __val__ to 1. To analyse
 ## Code
 
 ---
-Renegate consists of a series of sources files written in C, a header file, a make file for compilation, examples of input and output files stored in the Examples folder, a readMe file and a user's manual.
+ReNeGate consists of a series of sources files written in C, a header file, a make file for compilation, examples of input and output files stored in the Examples folder, a readMe file and a user's manual.
 
 ### Content
 
@@ -172,42 +172,34 @@ Note that in our results files, atoms are labelled according to their chemical t
 
 ### Threshold values
 
-A file __<constants.h>__ in the __src__ folder contains all threshold values used in the analyses done by the program, with the default values. These values include covalent radii, reference distances and angles for forming bonds/interactions, PBC values, etc. User can modify the values according to his needs.
+A file __<constants.h>__ in the __src__ folder contains all threshold values used in the analyses done by the program, with the default values. These values include covalent radii, reference distances and angles for forming bonds/interactions, PBC values, etc. Users can modify the values according to their needs.
 
 ## References
 
 ---
 Refer to the following papers for more details
 
-1. Bougueroua, S.; Barth, D.; Quessette, F.; Spezia, R.; Vial, S.; and Gaigeot, M.-P. Graph theory for automatic structural recognition in molecular dynamics simulations. J. Chem. Phys. (2018). DOI: 10.1063/1.5045818
-2. manual\_paper / in progress
-3. material\_paper / in progress
+1. Hashemi, A.; Bougueroua, S.; Gaigeot, M.-P and Pidko E. ReNeGate: A Reaction Network Graph-Theoretical Tool for Automated Mechanistic Studies in Computational Homogeneous Catalysis, [JCTC 2022](https://doi.org/10.1021/acs.jctc.2c00404). 
+2. Bougueroua, S.; Barth, D.; Quessette, F.; Spezia, R.; Vial, S.; and Gaigeot, M.-P. Graph theory for automatic structural recognition in molecular dynamics simulations. J. Chem. Phys. (2018). DOI: 10.1063/1.5045818
+3. manual\_paper / in progress
 
 ## Support
 
 ---
-If you find a bug, please report it to the main developer (sana.bougueroua@univ-evry.fr).
-Comments and suggestions are also welcome.
+If you find a bug with ReNeGate, please report it to the developer (ahashemiche@gmail.com). Comments and suggestions are also welcome.
 
 ## Main developers
 
 ---
 
 * _2014-2022_ Dr. Sana Bougueroua (LAMBE-UMR8587, University Evry Val d'Essonne, Université Paris Saclay, France)
-* _2020-2022_ Dr. Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
+* _2020-2022_ Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
 
-## Acknowledgements
-
----
-All co-authors acknowledge funding from the LABEX CHARMMMAT
-(LABoratoire d'EXcellence CHARMMMAT, CHimie des ARchitectures Moléculaires Multifonctionnelles et des MATériaux).
-Sana Bougueroua especially benefited from a PhD funding from LABEX CHARMMMAT. Pr. Marie-Pierre Gaigeot, Pr. Dominique Barth, Dr. Franck Quessette, Dr. Riccardo Spezia, Dr. Alvaro Cimas, Dr. Simone Pezzotti, and Prof. Evgeny Pidko are acknowledged for the very helpful and fruitful discussions.
-Ali Hashemi acknowledges the financial support from the European Research Council (ERC) under the European Union's Horizon 2020 Research and Innovation Programme (grant agreement no. 725686). This work was sponsored by NWO Domain Science for the use of the national computer facilities. Ali Hashemi acknowledges Prof. Evgeny Pidko for very helpful and fruitful discussions.
 
 ## License
 
 ---
-Renegate is copyright (C) 2022 - 2030 Ali Hashemi, Sana Bougueroua, Marie-Pierre Gaigeot , Evgeny A. Pidko all rights reserved. Renegate is distributed under 3-Clause BSD License (https://opensource.org/licenses/BSD-3-Clause).
+ReNeGate is copyright (C) 2022 - 2030 Ali Hashemi, Sana Bougueroua, Marie-Pierre Gaigeot , Evgeny A. Pidko all rights reserved. ReNeGate is distributed under 3-Clause BSD License (https://opensource.org/licenses/BSD-3-Clause).
 
 ## Project status
 
