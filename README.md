@@ -180,7 +180,7 @@ A file __<constants.h>__ in the __src__ folder contains all threshold values use
 Refer to the following papers for more details
 
 1. Hashemi, A.; Bougueroua, S.; Gaigeot, M.-P and Pidko E. ReNeGate: A Reaction Network Graph-Theoretical Tool for Automated Mechanistic Studies in Computational Homogeneous Catalysis, [JCTC 2022](https://doi.org/10.1021/acs.jctc.2c00404). 
-2. Bougueroua, S.; Barth, D.; Quessette, F.; Spezia, R.; Vial, S.; and Gaigeot, M.-P. Graph theory for automatic structural recognition in molecular dynamics simulations. J. Chem. Phys. (2018). DOI: 10.1063/1.5045818
+2. Bougueroua, S.; Barth, D.; Quessette, F.; Spezia, R.; Vial, S.; and Gaigeot, M.-P. Graph theory for automatic structural recognition in molecular dynamics simulations. J. Chem. Phys. (2018). [DOI: 10.1063/1.5045818](https://doi.org/10.1063/1.5045818)
 3. manual\_paper / in progress
 
 ## Support
