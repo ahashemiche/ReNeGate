@@ -184,7 +184,7 @@ Refer to the following papers for more details
 ## Support
 
 ---
-If you find a bug with ReNeGate, please report it to the developer (ahashemiche@gmail.com). Comments and suggestions are also welcome.
+If you find a bug with ReNeGate, please report it to the developers (ahashemiche@gmail.com and sana.bougueroua@univ-evry.fr). Comments and suggestions are also welcome.
 
 ## Main developers
 
