@@ -199,6 +199,10 @@ If you find a bug with ReNeGate, please report it to the developers (ahashemiche
 ---
 ReNeGate is copyright (C) 2022 - 2030 Ali Hashemi, Sana Bougueroua, Marie-Pierre Gaigeot , Evgeny A. Pidko all rights reserved. ReNeGate is distributed under 3-Clause BSD License (https://opensource.org/licenses/BSD-3-Clause).
 
+## Acknowledgements
+
+E.A.P. and A.H acknowledge the European Research Council (ERC) under the European Union’s Horizon 2020 Research and Innovation Programme (grant agreement no. 725686) for financial support. This work was sponsored by NWO Domain Science for the use of the national computer facilities. M.-P.G. and S.B. thank Prof. D. Barth for fruitful discussions.
+
 ## Project status
 
 ---
