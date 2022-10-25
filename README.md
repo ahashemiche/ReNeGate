@@ -25,8 +25,6 @@ In order to run the ReNeGate program, you have to install the following software
 
 4. Nauty: is used to perform the isomorphism. [Download](http://pallini.di.uniroma1.it)
 
-5. Python: is used for the trimming of chemical reaction networks after reactive event identification step [Download](https://www.python.org/)
-
 ### Installation and compilation
 
 The code comes in a compressed file __ReNeGate.tar.gz__.
