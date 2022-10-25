@@ -52,10 +52,9 @@ Then, in order to compile ReNeGate source code, use the make file provided :
  make -f Makefile  
 ```
 
-ReNeGate contains three "Conformer Exploration", "Reactive event identification" and "Reaction network analysis" modules. 
 If no error has occurred, this command-line "make" generates the following files:
 
-* conformer_explorer: this script is used to do conformer exploration with the name of the input structure as the argument:
+* conformer_explorer: this script is used to do CREST conformer exploration with the name of the input structure as the first and the solvent (according to CREST terminology) as second argument:
 
 ``` 
  conformer_explorer input.xyz  
