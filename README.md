@@ -54,10 +54,10 @@ Then, in order to compile ReNeGate source code, use the make file provided :
 
 If no error has occurred, this command-line "make" generates the following files:
 
-* conformer_explorer: this script is used to do CREST conformer exploration with the name of the input structure as the first and the solvent (according to CREST terminology) as second argument:
+* CREST_explorer: this script is used to do CREST conformer exploration with the name of the input structure as the first and the solvent (according to CREST terminology) as second argument:
 
 ``` 
- conformer_explorer input.xyz  
+ CREST_explorer.sh input.xyz  
 ```
 conformer and rotamer ensembles populated from explorations will be copied to the working directory. 
 
