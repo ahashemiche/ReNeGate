@@ -201,8 +201,4 @@ ReNeGate is copyright (C) 2022 - 2030 Ali Hashemi, Sana Bougueroua, Marie-Pierre
 
 E.A.P. and A.H acknowledge the European Research Council (ERC) under the European Union’s Horizon 2020 Research and Innovation Programme (grant agreement no. 725686) for financial support. This work was sponsored by NWO Domain Science for the use of the national computer facilities. M.-P.G. and S.B. thank Prof. D. Barth for fruitful discussions.
 
-## Project status
-
----
-The project is under development.
 </p>
