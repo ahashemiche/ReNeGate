@@ -1,11 +1,9 @@
+<p align="center">
+<img src="https://user-images.githubusercontent.com/47638604/234389314-c26f1ddf-d2ca-4274-b913-2f3e9a8da63c.png"
+</p>
+
 ## ReNeGate 
 Reaction Network Graph Theoretical tool for automated mechanistic studies in computational homogeneous catalysis
-
-![TOC3-2@720x](https://user-images.githubusercontent.com/47638604/234389314-c26f1ddf-d2ca-4274-b913-2f3e9a8da63c.png)
-
-
-
-
 
 <p align="justify"> ReNeGate is a free program for automated reaction network exploration and analysis. Conformer exploration, Reactive event identification and Reaction network analysis are the main steps taken for understanding the underlying mechanistic pathways in catalytic mixtures given the reaction mixture as the input. For conformer exploration configurational root mean squared deviations (RMSD) is used to bias metadynamics simulations to perform exhaustive configurational search on the potential energy surface of the given input catalytic mixture. The resulting metadynamics trajectories are then analysed with the developed basic graph theoretical algorithms in order to identify the conformations and transitions between them that occur along dynamics to form reaction networks. Reaction networks are then trimmed based on thermodynamic tresholds. Renegate is a series of codes written in C, bash and Python and can be run on Linux machines.
 
