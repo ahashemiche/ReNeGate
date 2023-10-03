@@ -1,11 +1,11 @@
 /*****************************************************************************
-    GATEwAY - GrAph ThEory for conformAtional dYnamics 
+    ReNeGate
 
     Copyright (c) 2014-2022 Sana Bougueroua
                   2020-2022 Ali Hashemi
     Please cite:  J. Chem. Phys. 2018, 149 (18), 184102.         (DOI 10.1063/1.5045818 )
 		   	
-    This file written by Sana Bougueroua.
+    
 
     ---------------------------------------------------------------------------
 
