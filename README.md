@@ -176,7 +176,7 @@ A file __<constants.h>__ in the __src__ folder contains all threshold values use
 Refer to the following papers for more details
 
 * Hashemi, A.; Bougueroua, S.; Gaigeot, M.-P and Pidko E. ReNeGate: A Reaction Network Graph-Theoretical Tool for Automated Mechanistic Studies in Computational Homogeneous Catalysis, [JCTC 2022](https://doi.org/10.1021/acs.jctc.2c00404). 
-* Hashemi, A.; Bougueroua, S.; Gaigeot, M.-P and Pidko E. “High-Throughput Reactivity Exploration for Extended Databases of Transition Metal Catalysts.” In: ChemRxiv (2023), [ChemRxive 2023](https://doi.org/10.26434/chemrxiv-2023-f76nv)
+* Hashemi, A.; Bougueroua, S.; Gaigeot, M.-P and Pidko E. “High-Throughput Reactivity Exploration for Extended Databases of Transition Metal Catalysts.” In: ChemRxiv (2023), [JCIM 2023](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00660)
 * Bougueroua, S.; Barth, D.; Quessette, F.; Spezia, R.; Vial, S.; and Gaigeot, M.-P. Graph theory for automatic structural recognition in molecular dynamics simulations. J. Chem. Phys. (2018). [DOI: 10.1063/1.5045818](https://doi.org/10.1063/1.5045818)
 
 ## Support
@@ -188,8 +188,9 @@ If you find a bug with ReNeGate, please report it to Ali Hashemi (ahashemiche@gm
 
 ---
 
+* _2020-2022_ Dr. Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
 * _2014-2022_ Dr. Sana Bougueroua (LAMBE-UMR8587, University Evry Val d'Essonne, Université Paris Saclay, France)
-* _2020-2022_ Ali Hashemi (TU Delft, Faculty of Applied Sciences, Netherlands)
+
 
 
 ## License
